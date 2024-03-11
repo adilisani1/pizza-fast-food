@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+section {
+    overflow: hidden;
+    padding: 80px 0;
+    scroll-margin-top: 90px;
+    overflow: clip;
+
+}
+
+h3 {
+    margin: 0 !important;
+}
+
+
+.slick-slider {
+    position: relative;
+    padding-top: 20px;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    transition: background-color 0.5s ease;
+
+    margin-bottom: 20px !important;
+}
+
+.slick-slide>div {
+    padding: 0 10px;
+}
+
+.center .slick-center .proj {
+
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+.slick-dots {
+    position: relative;
+    bottom: 5px;
+}
+
+.slick-dots li button:before {
+    font-size: 16px;
+    color: rgb(63, 63, 63);
+
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #22C55E;
+}
+
+.slick-list {
+    overflow: visible !important;
+
+}
+
+.slick-dots li {
+    margin: 0 8px;
+
+}
+
+@media (min-width: 768px) {
+    section {
+        min-height: 100vh;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .slick-slide img {
+        width: 30%;
+    }
+
+
+}

@@ -1,0 +1,94 @@
+{
+    "pizzas": [
+        {
+            "id": 1,
+            "name": "Margherita",
+            "variants": [
+                "small",
+                "medium",
+                "large"
+            ],
+            "prices": [
+                200,
+                400,
+                800
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "id": 2,
+            "name": "Pepperoni",
+            "variants": [
+                "small",
+                "medium",
+                "large"
+            ],
+            "prices": [
+                200,
+                400,
+                800
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "id": 3,
+            "name": "Veggie Delight",
+            "variants": [
+                "small",
+                "medium",
+                "large"
+            ],
+            "prices": [
+                200,
+                400,
+                800
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "id": 4,
+            "name": "Hawaiian",
+            "variants": [
+                "small",
+                "medium",
+                "large"
+            ],
+            "prices": [
+                200,
+                400,
+                800
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "id": 5,
+            "name": "Meat Lovers",
+            "variants": [
+                "small",
+                "medium",
+                "large"
+            ],
+            "prices": [
+                200,
+                400,
+                800
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "id": 6,
+            "name": "Buffalo Chicken",
+            "variants": [
+                "small",
+                "medium",
+                "large"
+            ],
+            "prices": [
+                200,
+                400,
+                800
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+    ]
+}
